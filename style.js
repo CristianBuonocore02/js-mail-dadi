@@ -53,7 +53,20 @@ if (trovato) {
 
 // soluzione es2
 
-// let giocatore = Math.floor(Math.random() * 6)
+let giocatore = Math.floor(Math.random() * 6) + 1
+
+let computer = Math.floor(Math.random() * 6) + 1
+
+console.log("Il tuo numero è " + giocatore)
+
+console.log("Il numero del computer è " + computer)
+
+if (giocatore > computer) {
+    console.log("Hai vinto!")
+} else {
+    console.log("Hai perso!");
+
+}
 
 // console.log(giocatore)
 
